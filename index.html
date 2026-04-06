@@ -4,18 +4,150 @@
     <meta charset="UTF-8">
     <meta name="description" content="Meeting minutes for Pomodoro Timer brainstorm session">
     <title>Meeting Minutes: Pomodoro Timer Brainstorm</title>
-    <link rel="icon" href="INSERT FAVICON URL HERE" type="image/x-icon">
+    <link rel="icon" href="media/meetingDebate.png" type="image/png">
   </head>
   <body>
     <header>
       <h1>Meeting Minutes: Pomodoro Timer Brainstorm</h1>
+      <h2>Meeting Topic: Brainstorming ideas and work delegation for the pomodoro timer project!</h2>
+      <h3>Date: 2026-04-05</h3>
+      
     </header>
-
+    <nav>
+      <a href="#attendance">Attendance</a> |
+      <a href="#agenda">Agenda</a> |
+      <a href="#discussion">Discussion</a>
+    </nav>
+    <hr>
+  
     <main>
-    </main>
+        <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li><input type="checkbox"/> Lebron James </li> 
+          <li><input type="checkbox"/> Michael Jordan </li> 
+          <li><input type="checkbox"/> Steph Curry </li> 
+          <li><input type="checkbox"/> Kobe Bryant </li> 
+        </ul>
+      </section>
+
+       <section id="agenda">
+        <h2>Agenda</h2>
+        <strong> Unfinished Business:</strong>
+        <ol>
+          
+          <li><input type="checkbox"/> Selection of specific features for the pomodoro timer</li>
+          <li><input type="checkbox"/> Team formation </li>
+        </ol>
+        <strong> New Business:</strong>
+        <ol> 
+          <li><input type="checkbox"/>Team work division</li>
+          <li><input type="checkbox"/>Implementation of first draft Deadline</li>
+        </ol>
+      </section>
+
+      <section id="discussion">
+        <h2>Discussion:</h2>
+        <p> We discussed various Items on the Agenda. The dabate was <i>heated</i>, Lebron got very upset at Steph for saying that Micael was the G.O.A.T. </p>
+          <b> Comments of Note</b>
+          <p>
+          Kobes Idea: We should make a pomodoro style shot clock in the NBA, to enforce changes in Pace of play.<br>
+          Michael Asked: Why don't we just stick to the CSE project guidlines man?<br>
+          Lebron brought up a concern: <em>I still can't beleive Steph said that.</em>
+
+        </p>
+        <img src="media/meetingDebate.png" alt="Photo of the G.O.A.T. debate" width="600">
+      </section>
+      <section>
+  <h2>Extra Notes</h2>
+  <div>
+    <p><span>Reminder:</span> finalize the feature list before the next meeting.</p>
+  </div>
+
+  <details>
+    <summary>Click to view a meeting concern</summary>
+    <p>Lebron is still mad, he hasn't spoken to anyone since the meeting. Next time let him beleive he is the G.O.A.T.</p>
+  </details>
+  </section>
+  <section>
+  <h2>Meeting Recordings</h2>
+
+  <h3>Random Audio Recording From My Laptop</h3>
+  <audio controls>
+    <source src="media/16.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h3>Random Edit Made With Above Audio</h3>
+  <video width="400" controls>
+    <source src="media/SURFDAYZ.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+</section>
+
+</main>
+
+  
+  
+  
+  
+  
+  
+  
+    <section>
+  <h2>Feedback Form</h2>
+  <form>
+    <fieldset>
+      <legend>Meeting Feedback</legend>
+
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" list="member-names">
+      </p>
+
+      <datalist id="member-names">
+        <option value="Lebron James"></option>
+        <option value="Michael Jordan"></option>
+        <option value="Steph Curry"></option>
+        <option value="Kobe Bryant"></option>
+      </datalist>
+
+      <p>
+        <label for="meeting-date">Next available date:</label>
+        <input type="date" id="meeting-date" name="meeting-date">
+      </p>
+
+      <p>Preferred role:</p>
+      <label><input type="radio" name="role" value="designer"> Designer</label>
+      <label><input type="radio" name="role" value="developer"> Developer</label>
+      <label><input type="radio" name="role" value="Team Lead"> Team Lead</label>
+
+      <p>
+        <label><input type="checkbox" name="updates"> Send me project updates</label>
+      </p>
+
+      <p>
+        <label for="topic">Favorite discussion topic:</label>
+        <select id="topic" name="topic">
+          <option value="features">Features</option>
+          <option value="team-formation">Team formation</option>
+          <option value="deadlines">Deadlines</option>
+          <option value="debate">G.O.A.T. debate</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+      </p>
+
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+</section>  
 
     <footer>
-      <p>Created for CSE 110 Lab 2</p>
+      <p>CSE 110 Lab 2</p>
     </footer>
   </body>
 </html>
